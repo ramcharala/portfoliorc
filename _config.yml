@@ -1,0 +1,15 @@
+baseurl: ""
+cloudcannon:
+  site:
+    editable: true
+    collections:
+      - label: "Home Page"
+        path: index.html
+        data:
+          - id: about_title
+            label: "About Title"
+            type: text
+          - id: about_description
+            label: "About Description"
+            type: textarea
+          # Add more ids for other editable sections here
